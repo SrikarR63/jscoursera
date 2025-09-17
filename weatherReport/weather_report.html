@@ -8,11 +8,16 @@
 
   <form id="weatherForm">
     <label for="city">Enter City:</label>
-    <input type="text" id="city" name="city">
+    <input type="text" id="city" name="city"><br>
+    <label for="latitude">Latitude:</label>
+    <input id="latitude" name="latitude" type="number" placeholder="latitude"><br>
+    <label for="longitude">Longitude:</label>
+    <input id="longitude" name="longitude" type="number" placeholder="longitude"><br>
     <button type="submit">Get Weather</button>
   </form>
 
   <div id="weatherInfo"></div>
+  <div id="latloninfo"></div>
 <script src="./weather_report.js"></script>
 </body>
 </html>
